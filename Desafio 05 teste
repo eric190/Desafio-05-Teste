@@ -1,0 +1,188 @@
+using System;
+
+namespace Desafio__05
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            System.Collections.Generic.List<string> Alunos = new System.Collections.Generic.List<string>();
+            System.Collections.Generic.List<int> Nota = new System.Collections.Generic.List<int>();
+
+            string nome1 = "João";
+            int idade1 = 18;
+            int n1 = 8;
+
+            string nome2 = "Larissa";
+            int idade2 = 29;
+            int n2 = 7;
+
+            string nome3 = "Marcos";
+            int idade3 = 33;
+            int n3 = 9;
+
+
+            Alunos.Add("João");
+            Alunos.Add("Larissa");
+            Alunos.Add("Marcos");
+
+            Nota.Add(8);
+            Nota.Add(7);
+            Nota.Add(9);
+
+            string nome1 = "João";
+            int nota1 = 8;
+
+            Alunos.Add(nome1);
+            Nota.Add(nota1);
+
+            int[] Nota = new int[3];
+            Nota[0] = n1;
+            Nota[1] = n2;
+            Nota[2] = n3;
+
+            Console.WriteLine(Nota[0] + Nota[1] + Nota[2]);
+
+            using System;
+            using System.Collections.Generic;
+            using System.IO;
+
+            namespace app
+    { 
+
+
+
+        class Aluno
+        {
+
+            public string nome = "";
+            public float nota = 0;
+            public int idade = 0;
+
+
+            public Aluno(string inputNome, float inputNota, int inputIdade)
+            {
+
+                nome = inputNome;
+                nota = inputNota;
+                idade = inputIdade;
+            }
+
+        }
+
+        class Program
+        { 
+            static void Main(string[] args)
+            {
+                List<Aluno> listaAlunos = new List<Aluno>();
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
